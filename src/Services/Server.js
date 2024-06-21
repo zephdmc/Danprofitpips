@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import AOS from 'aos';
 const Services = () => {
     
@@ -39,7 +39,7 @@ const Services = () => {
                             <img src='download1.jpg' alt='iaid' className='h-[70%] w-full p-4 ' />
                             <div className='absolute h-full w-full bg-black/20 flex item-center justify-center -bottom-10 group-hover:-bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300'>
                                 <div className='mt-8'>
-                                    <a href='#' className='bg-rose-600 text-white py-2 px-4  mt-4 mx-4 hover:bg-black'>Start</a>
+                                    <a href='/Contact' className='bg-rose-600 text-white py-2 px-4  mt-4 mx-4 hover:bg-black'>Start</a>
                                     <div className='text-xs px-4 pt-2 text-gray-100 bg-black '>
                                         <p>Minimum Investment: 500$</p>
                                         <p>Maximum Investment: 999$</p>
@@ -58,7 +58,7 @@ const Services = () => {
                             <img src='download2.jpg' alt='iaid' className='h-[70%] w-full p-4 ' />
                             <div className='absolute h-full w-full bg-black/20 flex item-center justify-center -bottom-10 group-hover:-bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300'>
                                 <div className='mt-8'>
-                                    <a href='#' className='bg-rose-600 text-white py-2 px-4  mt-4 mx-4 hover:bg-black'>Start</a>
+                                    <a href='/Contact' className='bg-rose-600 text-white py-2 px-4  mt-4 mx-4 hover:bg-black'>Start</a>
                                     <div className='text-xs px-4 pt-2 text-gray-100 bg-black '>
                                         <p>Minimum Investment:1000$</p>
                                         <p>Maximum Investment: 4999$</p>
@@ -78,7 +78,7 @@ const Services = () => {
                             <img src='images4.jpg' alt='iaid' className='h-[70%] w-full p-4 ' />
                             <div className='absolute h-full w-full bg-black/20 flex item-center justify-center -bottom-10 group-hover:-bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300'>
                                 <div className='mt-8'>
-                                    <a href='#' className='bg-rose-600 text-white py-2 px-4  mt-4 mx-4 hover:bg-black'>Start</a>
+                                    <a href='/Contact' className='bg-rose-600 text-white py-2 px-4  mt-4 mx-4 hover:bg-black'>Start</a>
                                     <div className='text-xs px-4 pt-2 text-gray-100 bg-black '>
                                         <p>Minimum Investment: 5000$</p>
                                         <p>Maximum Investment: 9999$</p>
@@ -100,7 +100,7 @@ const Services = () => {
                             <img src='bg-4-hero.jpg' alt='iaid' className='h-[70%] w-full p-4 ' />
                             <div className='absolute h-full w-full bg-black/20 flex item-center justify-center -bottom-10 group-hover:-bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300'>
                                 <div className='mt-8'>
-                                    <a href='#' className='bg-rose-600 text-white py-2 px-4  mt-4 mx-4 hover:bg-black'>Start</a>
+                                    <a href='/Contact' className='bg-rose-600 text-white py-2 px-4  mt-4 mx-4 hover:bg-black'>Start</a>
                                     <div className='text-xs px-4 pt-2 text-gray-100 bg-black '>
                                         <p>Minimum Investment: 10000$</p>
                                         <p>Maximum Investment: Infinity$</p>

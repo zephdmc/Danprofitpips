@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import AOS CSS
-import ojbImage from './Image/ojb.jpg';
 import bhgero2 from './Forex/bg-1-hero.jpg'
 import bgHero from './Forex/bg-2-hero.jpg';
 
@@ -39,7 +38,7 @@ const HeroSection = () => {
       );
     }, 40000);
     return () => clearInterval(interval);
-  }, []);
+  }, [backgrounds]);
 
 
   return (

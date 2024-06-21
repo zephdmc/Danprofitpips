@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaCode, FaPaintBrush, FaChartBar, FaMoneyBillWave, FaRegFolderOpen } from 'react-icons/fa';
+import {  FaChartBar, FaMoneyBillWave, FaRegFolderOpen } from 'react-icons/fa';
 
 const FeatureSection = () => {
   // Dummy data for demonstration

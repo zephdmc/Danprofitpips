@@ -1,19 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import image1 from '../Image/obj.jpg';
-import image2 from '../Image/ojb.jpg';
-import image3 from '../Image/Capture.PNG';
+import React from 'react';
 
-const images = [image1, image2, image3];
+
 
 const AboutSection = () => {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000); // Change image every 3 seconds
-    return () => clearInterval(interval);
-  }, []);
 
   return (
     <div className="relative isolate mx-auto px-4">

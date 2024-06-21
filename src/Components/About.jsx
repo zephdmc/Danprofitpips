@@ -1,5 +1,4 @@
 import React from 'react';
-import AboutNote from '../Services/AboutSection/aboutnote';
 import AboutSection1 from '../Services/AboutSection/ourcorevalue';
 // import TeamSection from '../Services/AboutSection/ourteam';
 import Footer from '../Services/footer';

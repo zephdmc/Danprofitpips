@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, {  useEffect } from 'react';
 import AOS from 'aos';
-import { FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { FaHeadset } from 'react-icons/fa';
 import { FaDollarSign } from 'react-icons/fa';
 import { FaCheckCircle } from 'react-icons/fa';
@@ -43,33 +42,25 @@ const DetailSection = () => {
             name: 'Leading',
             position: 'Experience',
             image: <FaRegClock className='h-12 w-12' />,
-            twitter: '#',
-            linkedin: '#',
-            github: '#',
+           
         },
         {
             name: '4 Yeas',
             position: 'successful result',
             image: <FaCheckCircle className='h-12 w-12' />,
-            twitter: '#',
-            linkedin: '#',
-            github: '#',
+           
         },
         {
             name: '30,400%',
             position: 'Profit Made so far',
             image: <FaDollarSign className='h-12 w-12' />,
-            twitter: '#',
-            linkedin: '#',
-            github: '#',
+           
         },
         {
             name: '24/5',
             position: 'Customer Support',
             image: <FaHeadset className='w-12  h-12' />,
-            twitter: '#',
-            linkedin: '#',
-            github: '#',
+           
         },
     ];
     return (

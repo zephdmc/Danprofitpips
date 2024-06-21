@@ -1,8 +1,7 @@
 import React from 'react';
-import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaGlobe, FaTwitter } from 'react-icons/fa';
+import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaTwitter } from 'react-icons/fa';
 import Navbar1 from '../theme/navibar';
 import Footer from '../Services/footer';
-import ContactUsHeroSection from '../Services/ContactSection/contactHeroSection';
 import ContactHero from '../Services/ContactSection/ContactHero';
 import FollowSection from '../Services/Home/follow';
 import Topnav from '../Services/Home/topnavbar';
@@ -27,7 +26,7 @@ const ContactUsSection = () => {
                 <div className="w-full lg:w-full md:w-1/2 p-4">
                   <img
                     src="callimage.jpeg"
-                    alt="Feature Image"
+                    alt="Feature"
                     className="w-full h-full sm:px-[2%] md:px-[5%] rounded object-cover "
                   />
                 </div>

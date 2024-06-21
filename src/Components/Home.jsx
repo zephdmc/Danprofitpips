@@ -7,7 +7,6 @@ import Footer from '../Services/footer';
 import FeatureSection from '../Services/numberofworkdone';
 import TestimonialSection from '../Services/testmonial';
 // import FAQSection from '../Services/fsq';
-import PreviousWorkSection from '../Services/exploreourwork';
 import CompaniesSection from '../Services/logosection';
 import MapSection from '../Services/Home/mapsection';
 import ASection from '../Services/Home/welcomeNote';

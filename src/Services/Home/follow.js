@@ -14,7 +14,7 @@ const FollowSection = () => {
                 <div className="w-full lg:w-full md:w-1/2 p-4">
                     <img
                         src="Follow.png"
-                        alt="Feature Image"
+                        alt="Feature "
                         className="w-full h-full sm:px-[2%] md:px-[5%] object-cover "
                     />
                 </div>

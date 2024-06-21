@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, {  useEffect } from 'react';
 import AOS from 'aos';
 
 const ASection = () => {
@@ -35,7 +35,7 @@ const ASection = () => {
         <div className="md:w-1/2 w-full p-4">
           <img
             src="EbubePicSeating.jpg"
-            alt="About Image"
+            alt="About"
             className="w-full h-auto object-cover"
           />
         </div>
