@@ -24,7 +24,7 @@ function Home() {
       <Navbar1 className="relative" />
       <HeroSection />
       {/* <div className='h-[40rem] m-8'> */}
-      {/* <h1 className='text-white text-xl font-bold bg-gray-500'>Our Services</h1> */}
+      {/* <h1 className='text-white text-xl font-bold bg-gray-500'>OurServices</h1> */}
       {/* <ServicesSection /> */}
       <ASection />
       <AboutSection1 />
