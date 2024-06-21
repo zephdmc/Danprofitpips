@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/'https://github.com/zephdmc/Danprofitpips.git/static/css/main.b7cc2456.css",
+    "main.js": "/'https://github.com/zephdmc/Danprofitpips.git/static/js/main.6255975d.js",
+    "static/js/453.a871c312.chunk.js": "/'https://github.com/zephdmc/Danprofitpips.git/static/js/453.a871c312.chunk.js",
+    "static/media/obj.jpg": "/'https://github.com/zephdmc/Danprofitpips.git/static/media/obj.99aa10098cb2955ada10.jpg",
+    "static/media/ojb.jpg": "/'https://github.com/zephdmc/Danprofitpips.git/static/media/ojb.1d7b5a3a7fdc24b8dfbd.jpg",
+    "static/media/Capture.PNG": "/'https://github.com/zephdmc/Danprofitpips.git/static/media/Capture.182c021eeba0af7b65a8.PNG",
+    "static/media/bg-1-hero.jpg": "/'https://github.com/zephdmc/Danprofitpips.git/static/media/bg-1-hero.93867de0874fce4de560.jpg",
+    "static/media/bg-2-hero.jpg": "/'https://github.com/zephdmc/Danprofitpips.git/static/media/bg-2-hero.f6454719f2dc983d0f81.jpg",
+    "static/media/slick.svg": "/'https://github.com/zephdmc/Danprofitpips.git/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/'https://github.com/zephdmc/Danprofitpips.git/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/'https://github.com/zephdmc/Danprofitpips.git/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/'https://github.com/zephdmc/Danprofitpips.git/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/'https://github.com/zephdmc/Danprofitpips.git/index.html",
+    "main.b7cc2456.css.map": "/'https://github.com/zephdmc/Danprofitpips.git/static/css/main.b7cc2456.css.map",
+    "main.6255975d.js.map": "/'https://github.com/zephdmc/Danprofitpips.git/static/js/main.6255975d.js.map",
+    "453.a871c312.chunk.js.map": "/'https://github.com/zephdmc/Danprofitpips.git/static/js/453.a871c312.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7cc2456.css",
+    "static/js/main.6255975d.js"
+  ]
+}
