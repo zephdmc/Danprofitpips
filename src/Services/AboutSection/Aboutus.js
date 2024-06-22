@@ -12,7 +12,7 @@ const AboutSection = () => {
           <div className='mt-[3rem] mx-[1rem] md:mx-[3rem] lg:mx-[7rem] border-y-2 border-white'>
             {/* <h2 className="text-4xl text-white font-bold mt-[4rem] mb-4">About Us</h2> */}
             <p className="text-md md:text-md lg:text-lg text-gray-200 mb-[1rem] mb:mb-[2rem] lg:mb-[4rem] p-4 text-left">
-              Danprofitpips, where passion meets precision in the world of forex trading. Our journey began in March 2021, when a curious spark ignited a deep exploration into the intricate world of forex. Introduced by a friend, our founder initially navigated the demo accounts and delved into the diverse opinions and experiences people shared about forex trading. Recognizing the complexity and the potential, he embarked on this journey with determination and resilience.
+              Danprofitpips, where passion meets precision in the world of forex trading investment. Our journey began in March 2021, when a curious spark ignited a deep exploration into the intricate world of forex. Introduced by a friend, our founder initially navigated the demo accounts and delved into the diverse opinions and experiences people shared about forex trading. Recognizing the complexity and the potential, he embarked on this journey with determination and resilience.
 
               By May 2021, bolstered by his growing expertise, he ventured into the real market with a modest investment of $100. Despite initial setbacks and significant losses, which tested his emotional fortitude and discipline, he remained undeterred. The turning point came in November 2021, when a steadfast friend, believing in his relentless dedication, provided crucial support of $500.
 
