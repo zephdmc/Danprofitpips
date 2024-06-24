@@ -28,7 +28,7 @@
 <<<<<<< HEAD
 =======
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d  dist",
+    "deploy": "gh-pages -d  build",
 >>>>>>> fb028b1b5ea24e7af86404d338716b6182ff059f
     "build": "react-scripts build",
     "test": "react-scripts test",
