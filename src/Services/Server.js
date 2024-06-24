@@ -43,7 +43,7 @@ const Services = () => {
                                     <div className='text-xs px-4 pt-2 text-gray-100 bg-black '>
                                         <p>Minimum Investment: 500$</p>
                                         <p>Maximum Investment: 999$</p>
-                                        <p>Percentage Rate: 40% </p>
+                                        <p>Percentage Rate: 30% </p>
                                         <p>Duration: I Month</p>
                                         <p>Withdraw: Instantly</p>
 
@@ -62,7 +62,7 @@ const Services = () => {
                                     <div className='text-xs px-4 pt-2 text-gray-100 bg-black '>
                                         <p>Minimum Investment:1000$</p>
                                         <p>Maximum Investment: 4999$</p>
-                                        <p>Percentage Rate: 50% </p>
+                                        <p>Percentage Rate: 40% </p>
                                         <p>Duration: I Month</p>
                                         <p>Withdraw: Instantly</p>
 
@@ -82,7 +82,7 @@ const Services = () => {
                                     <div className='text-xs px-4 pt-2 text-gray-100 bg-black '>
                                         <p>Minimum Investment: 5000$</p>
                                         <p>Maximum Investment: 9999$</p>
-                                        <p>Percentage Rate: 70% </p>
+                                        <p>Percentage Rate: 50% </p>
                                         <p>Duration: I Month</p>
                                         <p>Withdraw: Instantly</p>
 
