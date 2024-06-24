@@ -1,6 +1,5 @@
 
-  "homepage": "https://zephdmc.github.io/danprofitpips",
-  "name": "zephtech",
+ "name": "zephtech",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
