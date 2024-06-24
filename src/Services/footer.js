@@ -1,5 +1,6 @@
 import React from 'react';
-
+import { FaWhatsapp } from 'react-icons/fa';
+import { SiWechat } from 'react-icons/si';
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-gray-300 py-8">
@@ -32,7 +33,16 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/Capitalmoney001" aria-label="Twitter" className="hover:text-white">
+                <a href="https://wa.me/07067420349" aria-label="Twitter" className="hover:text-white">
+                  <FaWhatsapp className="w-6 h-6" />
+                </a>
+              </li>
+              <li>
+                <a href="https://web.wechat.com/07067420349" aria-label="Twitter" className="hover:text-white">
+                 <SiWechat className="w-6 h-6" />
+                </a>
+              </li> <li>
+                <a href="https://twitter.com/capitalmoney007"  aria-label="Twitter" className="hover:text-white">
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M24 4.557a9.93 9.93 0 01-2.828.775 4.933 4.933 0 002.165-2.724 9.864 9.864 0 01-3.127 1.195 4.917 4.917 0 00-8.38 4.482 13.944 13.944 0 01-10.11-5.134 4.822 4.822 0 001.524 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.889a4.934 4.934 0 01-2.224.084 4.919 4.919 0 004.59 3.417A9.867 9.867 0 010 21.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.72 14.307-14.416 0-.219-.005-.437-.014-.653A10.243 10.243 0 0024 4.557z" />
                   </svg>

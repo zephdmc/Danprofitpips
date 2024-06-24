@@ -1,13 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 
 const ContactHero = () => {
 
   return (
-    <div className="relative isolate lg:h-[13rem]  md:h-[10rem]  h-[9rem] w-full mx-auto px-4">
+    <div className="relative isolate lg:h-[13rem]  md:h-[10rem]  h-[13rem] w-full mx-auto px-4">
       <div className=" bg-black">
-        
+
         <div className="relative">
           <img
             src='bgdetails.jpeg'
@@ -15,10 +15,10 @@ const ContactHero = () => {
             className="w-full h-[13rem] transition-opacity duration-1000 ease-in-out"
           />
           <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-90 rounded-lg">
-                      <div className='flex justify-between w-full md:mx-[10] lg:mx-[20%] '> <h3 className="lg:text-4xl md:text-3xl text-2xl font-bold text-white z-20">Contact Us</h3> <div className='flex'><Link to='Home' className='text-rose-600 hover:text-white px-2'>Home /</Link> <p className='text-white hover:text-white px-2'>Contact Us</p></div></div>
-                      
-                  </div>
-               
+            <div className='flex justify-between w-full md:mx-[10] lg:mx-[20%] '> <h3 className="lg:text-4xl md:text-3xl text-2xl font-bold text-white z-20">Contact Us</h3> <div className='flex'><a href='/' className='text-rose-600 hover:text-white px-2'>Home /</a> <p className='text-white hover:text-white px-2'>Contact Us</p></div></div>
+
+          </div>
+
         </div>
       </div>
       {/* <div className="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6" aria-hidden="true">

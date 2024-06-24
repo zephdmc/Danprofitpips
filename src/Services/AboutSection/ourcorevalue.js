@@ -4,7 +4,7 @@ import { FaLaptopCode, FaUsers, FaRocket, FaHandsHelping } from 'react-icons/fa'
 const AboutSection1 = () => {
   return (
     <div className="relative isolate bg-gray-100 ">
-      <div className=" h-[65rem] md:h-[45rem] lg:h-[20rem]  mx-auto px-4">
+      <div className=" h-[75rem] md:h-[45rem] lg:h-[23rem]  mx-auto px-4">
         <div className="flex flex-wrap absolute  justify-center mx-[10%] -top-6 bg-white">
           <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
             <div className="bg-white p-6  shadow-lg text-center border-l-2 border-gray-400">

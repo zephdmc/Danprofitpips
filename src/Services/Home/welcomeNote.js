@@ -1,4 +1,4 @@
-import React, {  useEffect } from 'react';
+import React, { useEffect } from 'react';
 import AOS from 'aos';
 
 const ASection = () => {
@@ -30,7 +30,7 @@ const ASection = () => {
   }, []);
 
   return (
-    <div className="bg-black text-white py-16">
+    <div className="bg-black text-white pb-8">
       <div className=" mx-auto flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 w-full p-4">
           <img
