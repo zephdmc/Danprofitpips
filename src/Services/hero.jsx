@@ -38,7 +38,7 @@ const HeroSection = () => {
       );
     }, 40000);
     return () => clearInterval(interval);
-  }, [backgrounds]);
+  }, [backgrounds.length]);
 
 
   return (
@@ -54,15 +54,15 @@ const HeroSection = () => {
           backgroundPosition: 'center',
         }}
       ></div>
-      <div className='grid grid-cols-1 py-8 w-full'>
+      <div className='grid grid-cols-1 py-2 md:py-8  w-full'>
         <div className='relative p-0 m-0 w-full  h-[40rem]'>
           <div className="sm:hidden opacity-25 backdrop-blur-sm trapezium absolute square h-[33rem] md:h-[39rem] bg-white/30 z-1 w-full item  " data-aos="fade-right" ></div>
           <div className="trapezium absolute square h-[30rem] bg-black bg-opacity-60 2-10 w-[96%] md:w-[90%] my-6 opacity-60" data-aos="fade-right"></div>
-          <div className='item-center absolute text-left mx-auto my-auto md:w-[89%] h-[25rem] md:h-[35rem] p-[2px] md:p-2 lg:p-8 z-20'>
+          <div className='item-center absolute text-left mx-auto my-auto md:w-[89%] h-[25rem] md:h-[35rem] p-[2px] pt-[7%] md:p-6 md:pt-[10%] lg:p-8 z-20'>
             <div className='md:mx-[6%] mx-[3%] my-[5] lg:mx-[10%] mt-[3rem] md:mt-[1px] md:my-[8%] lg:my-[10%]'>
-              <h1 className='text-white text-5xl md:text-[4rem] font-bold px-[3rem] md:px-[6rem]  mb-4 '>Investments as unique as you are. Let us craft a plan for your goals</h1>
-              <p className='  md:px-[6rem] px-[3rem] mr-[3rem] md:mr-[6rem] text-md text-white mb-4'>Secure your future with confidence, Invest with a trusted partner, Peace of mind in every investment, We prioritize your financial security</p>
-              <a href='/Contact' className='bg-rose-600 hover:text-white p-2  mx-[3rem] md:mx-[6rem] hover:bg-black rounded text-black'>Get Started</a>
+              <h1 className='text-white text-4xl md:text-[2rem] lg:text-[3rem] xl:text-[3rem] font-bold px-[2rem] md:px-[6rem]  mb-4 '>Invest as unique as you are. Let us craft a plan for your goals</h1>
+              <p className='  md:px-[6rem] px-[2rem] mr-[3rem] md:mr-[6rem] text-md text-white mb-4'>Secure your future with confidence, Invest with a trusted partner, Peace of mind in every investment, We prioritize your financial security</p>
+              <a href='/Contact' className='bg-rose-600 hover:text-white p-2  mx-[2rem] md:mx-[6rem] hover:bg-black rounded text-black'>Get Started</a>
             </div>
           </div>
         </div>

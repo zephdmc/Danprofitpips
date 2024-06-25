@@ -1,7 +1,7 @@
 import React from 'react';
 import HeroSection from '../Services/hero';
 import Navbar1 from '../theme/navibar';
-import ServicesSection from '../Services/services';
+// import ServicesSection from '../Services/services';
 import Services from '../Services/Server';
 import Footer from '../Services/footer';
 import FeatureSection from '../Services/numberofworkdone';
@@ -19,7 +19,7 @@ import ReasonFor from '../Services/Home/ResonForPlatform';
 import InvestmentPlans from '../Services/Home/investmentpaln';
 function Home() {
   return (
-    <div className="App bg-black">
+    <div className=" bg-black">
       <Topnav />
       <Navbar1 className="relative" />
       <HeroSection />
@@ -37,7 +37,7 @@ function Home() {
       <MapSection />
       <FeatureSection />
 
-      <ServicesSection />
+      {/* <ServicesSection /> */}
       <Services />
       <FollowSection />
       <CompaniesSection />

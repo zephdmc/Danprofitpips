@@ -24,9 +24,9 @@ const Navbar1 = () => {
                         </a>
                         <a
                             href="/About" className=" hover:border-b-2 hover:border-rose-600 hover:text-rose-600 px-3 py-2  text- sm font-medium">About </a>
-                       
+
                         <a
-                            href="/contact" className=" hover:border-b-2 hover:border-rose-600 hover:text-rose-700 px-3 py-2 text- sm font-medium" >Contact </a>
+                            href="/Contact" className=" hover:border-b-2 hover:border-rose-600 hover:text-rose-700 px-3 py-2 text- sm font-medium" >Contact </a>
                     </div>
                 </div>
                 <div className="-mr-2 flex md:hidden">
@@ -58,21 +58,18 @@ const Navbar1 = () => {
             id="mobile-menu" >
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px
 -3">
-                <button
-                    to="/" className=" hover:bg-rose-600 text-rose-600  hover:text-white block px-3 py-2 
+                <a
+                    href="/" className=" hover:bg-rose-600 text-rose-600  hover:text-white block px-3 py-2 
 text-base font-medium"
                 >Home
-                </button>
-                <button
-                    to="/About" className=" hover:bg-rose-600 text-rose-600  hover:text-white block px-3 py-2 
-text-base font-medium" >About </button>
-                <button
-                    to="/Blog" className="  hover:bg-rose-600 text-rose-600  hover:text-white block px-3 py-2 
-text-base font-medium" >Our Blog
-                </button>
-                <button
-                    to="/contact" className=" hover:bg-rose-600 text-rose-600  hover:text-white block px-3 py-2 
-text-base font-medium" >Contact </button>
+                </a>
+                <a
+                    href="/About" className=" hover:bg-rose-600 text-rose-600  hover:text-white block px-3 py-2 
+text-base font-medium" >About </a>
+
+                <a
+                    href="/Contact" className=" hover:bg-rose-600 text-rose-600  hover:text-white block px-3 py-2 
+text-base font-medium" >Contact </a>
             </div>
         </div>
     </nav>
